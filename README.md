@@ -21,7 +21,7 @@ This is a simple **RESTful API** project built with **Express.js** for managing 
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
 - [Prisma ORM](https://www.prisma.io/)
-- [PostgreSQL / MySQL / SQLite] (choose one)
+- [MySQL](https://www.mysql.com/)
 - [JWT](https://jwt.io/)
 - [Jest](https://jestjs.io/) for testing
 
