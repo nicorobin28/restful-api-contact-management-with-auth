@@ -239,7 +239,7 @@ describe("DELETE /api/users/logout", () => {
   it("should reject logout if token is invalid", async () => {
     const result = await supertest(web)
       .delete("/api/users/logout")
-      .set("Authorization", "salahlagi");
+      .set("Authorization", "salahmulu");
 
     expect(result.status).toBe(401);
   });
