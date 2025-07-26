@@ -1,4 +1,4 @@
-POST http://localhost:300/api/users
+POST https://restful-api-contact-management-with-auth.onrender.com/api/users
 Content-Type: application/json
 
 {
@@ -35,6 +35,6 @@ Authorization: fc1e76ca-51d0-4c74-9231-b936a86e06eb
 
 ###
 
-GET http://localhost:300/api/contacts?name=Andi&email=andibudi@gmail.com&phone=0812123456781&page=2&size=10
+GET http://localhost:300/api/contacts?name=Andi&email=andibudi@gmail.com&phone=0812123456781&page=2&size=2
 Content-Type: application/json
 Authorization: fc1e76ca-51d0-4c74-9231-b936a86e06eb
