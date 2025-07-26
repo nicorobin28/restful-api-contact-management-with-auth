@@ -1,0 +1,40 @@
+POST http://localhost:300/api/users
+Content-Type: application/json
+
+{
+  "username": "Askar",
+  "password": "Askar123",
+  "name": "Askar Prayogo"
+}
+
+### 
+POST http://localhost:300/api/users/login
+Content-Type: application/json
+
+{
+  "username": "Askar",
+  "password": "Askar123"
+}
+
+###
+POST http://localhost:300/api/contacts
+Content-Type: application/json
+Authorization: fc1e76ca-51d0-4c74-9231-b936a86e06eb
+
+{
+  "first_name": "Andi15",
+  "last_name": "budi15",
+  "email": "andibudi@gmail.com",
+  "phone": "0812123456781"
+}
+###
+
+GET http://localhost:300/api/contacts
+Content-Type: application/json
+Authorization: fc1e76ca-51d0-4c74-9231-b936a86e06eb
+
+###
+
+GET http://localhost:300/api/contacts?name=Andi&email=andibudi@gmail.com&phone=0812123456781&page=2&size=10
+Content-Type: application/json
+Authorization: fc1e76ca-51d0-4c74-9231-b936a86e06eb
