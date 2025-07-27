@@ -1,6 +1,5 @@
 POST https://restful-api-contact-management-with-auth.onrender.com/api/users
 Content-Type: application/json
-
 {
   "username": "Askar",
   "password": "Askar123",
